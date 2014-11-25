@@ -1,6 +1,7 @@
-#! /usr/bin/env python
-# -*- coding utf-8 -*-
-"""Docfile"""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""Using *args and **kwargs"""
+
 
 def mass_multiplier(*args):
     """Runs the mass multiplier function
@@ -9,6 +10,7 @@ def mass_multiplier(*args):
     for arg in args:
         retval *= arg
     return retval
+
 
 def student_report(name, age, school_id, **kwargs):
     """Compiles a student report as a dictionary"""
