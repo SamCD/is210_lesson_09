@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#! /usr/bin/env python
+# -*- coding utf-8 -*-
+"""Docfile"""
 
-BUTTER = 5 > 1
-OIL = 5 < 1
+BUTTER = 'buttterr'
+OIL = 0

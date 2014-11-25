@@ -1,17 +1,18 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#! /usr/bin/env python
+# -*- coding utf-8 -*-
+"""Docfile"""
 
 def mass_multiplier(*args):
-    total = 1
-    for i in args:
-        total *= i
-    return total
+    """Runs the mass multiplier function
+       Args: *args, unlimited arguments"""
+    retval = 1
+    for arg in args:
+        retval *= arg
+    return retval
 
 def student_report(name, age, school_id, **kwargs):
-    for k, v in kwargs.iteritems():
-        stuff ={'name': name,
-                'age': age,
-                'school_id': school_id,
-                k: v
-                }
-        return stuff
+    """Compiles a student report as a dictionary"""
+    kwargs['name'] = name
+    kwargs['age'] = age
+    kwargs['school_id'] = school_id
+    return kwargs

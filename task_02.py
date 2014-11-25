@@ -1,5 +1,8 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#! /usr/bin/env python
+# -*- coding utf-8 -*-
+"""Docfile"""
 
 import task_01.peanut
-TIME = peanut.BUTTER
+
+
+TIME = task_01.peanut.BUTTER
